@@ -12,10 +12,10 @@ Make sure you have Python 3.7 [installed locally](http://install.python-guide.or
 $ git clone https://github.com/heroku/python-getting-started.git
 $ cd python-getting-started
 
-$ python3 -m venv getting-started
+$ python -m venv getting-started
 $ pip install -r requirements.txt
 
-$ createdb python_getting_started
+$ createdb heroku_python_getting_started
 
 $ python manage.py migrate
 $ python manage.py collectstatic
